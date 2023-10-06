@@ -1,9 +1,16 @@
+import './App.css'
+import Header from './components/Header';
+import ClassDemo from './components/ClassDemo'
 function App() {
+  const User = "Mithun Mohandas"
   return (
     <div>
-    <h1 style={{color:"red"}}>Hello world</h1>
-    <p>Sample Description</p>
+      <Header message={User} />
+      <h1 className="App container bg-info p-5">Testing Area</h1>
+      <hr className='mt-5' />
+      <ClassDemo message={User} />
     </div>
   );
 }
 export default App;
+
