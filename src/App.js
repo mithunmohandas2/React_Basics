@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 //functional component
 function App() {
-  const User = "Mithun Mohandas";
+  const User = "Sample Projects by Mithun Mohandas";
   const EmpData = [
     { name: 'Elon', age: 46, email: "elonmusk@tesla.com" },
     { name: 'Mark', age: 43, email: "markzuckerberg@facebook.com" },
