@@ -9,6 +9,7 @@ root.render(
   <React.StrictMode>
     <App />
     <EnhancedCounter/>
+    <hr />
     <Forms />
 
   </React.StrictMode>
